@@ -21,3 +21,48 @@ A variable is name given to a memory location in a program.
 
 #Keywords
 Keywords are reserved words in python.
+
+#Comments
+
+#Single Line Comments
+"""
+Multi Line
+Comments
+"""
+
+#Operators
+
+a + b
+a and b are oprands
++ is operators
+
+#Arithmetic Operators
++,-,/,*,%,**
+
+#Relational/Comparison Operators
+==,!=,>,<,>=,<=
+
+#Assignment Operators
+=,+=,-=,*=,/+,%=,**=
+
+#Logical Operators
+not , and , or
+
+
+#Type Conversion
+
+Type Conversion = Autometic type change
+
+Type Casting = Menually type change
+example
+a,b = 1,"2"
+c = int(b)
+c = float(b)
+
+Input in Python
+input() statement is used to accept value (using keyboard) from user
+
+input() #result for input() is always a String
+int(input()) #int
+float(input()) #float
+
