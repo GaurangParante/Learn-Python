@@ -1,0 +1,40 @@
+#Strings
+String is data type that stores a sequence of characters.
+
+
+#escape sequence characters (Formatting)
+Next Line = \n
+Tab = \t
+
+
+#Opration On String
+
+-> Concatenation
+Concate Strings (string1 + string2)
+
+-> Length of String
+len(str)
+
+
+#Indexing
+
+str = "GAURANG_PARANTE"
+in python numbering (indexing) of string starts with 0 insted on 1
+
+str[0] is 'G', str[2] is 'A'...
+str[0] = B #not allowed
+
+
+#Slicing
+
+Accessing part of a string
+str[starting_idx : ending_idx] #ending idx is not included
+
+str = "GAURANG_PARANTE"
+str[1:5] is 'AURA'
+str[:4] is same as str[0:4]
+str[1:] is same as str[1:len(str)]
+
+#Nagitive Indexing
+str = "APPLE"
+str[-3:-1] is "pl"
