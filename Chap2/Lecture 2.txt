@@ -38,3 +38,28 @@ str[1:] is same as str[1:len(str)]
 #Nagitive Indexing
 str = "APPLE"
 str[-3:-1] is "pl"
+
+#String Functions
+str = "I am a coder."
+str.endswith("er.") #returns true if string ends with substr(Sub String)
+str.cpitalize() #cpitalize first char 
+str.replace(old,new) # Replace all occurrences of old to new
+str.find(word) # Retuen 1st index of 1st occurrer
+str.count("am") # Retuen the occurrences of sub string
+
+
+#Conditional Statements
+
+if-elif-else (SYNTEX)
+
+if(condition):
+    statement1
+elif(condition):
+    statement2
+else:
+    statementN
+
+#Nesting
+if(condition):
+    if(condition):
+        print(ans)
