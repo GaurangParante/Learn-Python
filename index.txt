@@ -1,0 +1,8 @@
+1. Variables and Data Types
+2. Strings and Conditional Statements
+3. List and Tuples
+4. Dictionary and Statements
+5. Loops
+6. Function & Recursion
+7. File I/O
+8. OOPS
