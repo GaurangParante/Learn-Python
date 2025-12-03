@@ -1,0 +1,33 @@
+#List in Python
+
+-> A built-in data type that stores set of values.
+-> It can store elements of diffrent types(integer, float, string, etc.)
+
+marks = [87,86,96,35,12] # marks[0],marks[1]
+student = ["karan",85,"Delhi"] # student[0],student[1]
+student[0] = "Arjun" # Allowed in python
+len(student) # Returns Length
+
+string -> immutable
+list -> mutable
+
+#List Slicing
+Similar to staring
+
+list_name[staring_idx:ending_idx] #ending index is not included
+marks = [94.4, 87.5, 35.2, 45.1, 99.8]
+
+marks[1:4] is [ 87.5, 35.2, 45.1]
+marks[:4] is same as marks[0:4]
+marks[1:] is same as marks[1:len(marks)]
+marks[-3:-1] is [35.2,45.1]
+
+
+#List Methods
+
+list = [2,1,3]
+list.append(4) #adds one element at the end [2,1,3,4]
+list.sort() #sorts in ascending order [1,2,3]
+list.sort(reverse=True) #sorts in descending order [3,2,1]
+list.reverse() # reverses list [3,1,2]
+list.insert(idx,element) #insert element at index
