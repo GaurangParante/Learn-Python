@@ -1,0 +1,12 @@
+# Dictionary in Python
+-> Dictionary are used to store data values in key:value pairs 
+-> They are unodered, mutable(changeable) & don't allow duplicate keys
+
+dict = {
+    "name":"Gaurang",
+    "cgpa":8.7,
+    "marks":[89,87,86],
+}
+dict.name,dict.cgpa,dict.marks
+
+dict["key"] = "value" # To assign or add new
