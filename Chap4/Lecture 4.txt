@@ -10,3 +10,48 @@ dict = {
 dict.name,dict.cgpa,dict.marks
 
 dict["key"] = "value" # To assign or add new
+
+# Nested Dictionary
+
+student = {
+    "name":"Gaurang",
+    "marks":{
+        "maths":98,
+        "english":35,
+        "science":86
+    }
+}
+
+# Dictionary Methods
+student.keys() #returns all keys
+student.values() #returns all values
+student.items() #reurns all (key,val) pairs as tuples
+student.get("key") #returns the key according to value
+student.update(newDict) #insert the specified items to the Dictionary 
+
+
+# Set in Python
+-> Set is the collection of the unordered items.
+-> Each element in the set must be unique and immutable.
+
+nums = {1,2,3,4}
+set2 = {1,2,2,2} # repeated elements stored only once, so it resolved to {1,2}
+
+null_set = set() #empty set syntax
+
+-> Allowed data types store in set
+boolean,int,float,str,tuple
+-> Not allowed data types store in set
+dictionaty,list
+
+
+# Set Methods
+set.add(el) # Add an element
+set.remove(el) # Removes the element
+set.clear(el) # Empties the set
+set.pop(el) # removes a rendom value
+set.union(set2) #combine both set values & returns new
+set.intersection(set2) #cimbines common values & retuen new
+
+immutable -> hashable value
+mutable -> unhashable value
