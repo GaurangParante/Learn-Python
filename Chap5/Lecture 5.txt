@@ -1,0 +1,10 @@
+# Loops in Python
+
+-> Loops are use to repeat instruction 
+-> Types of Loops
+    while
+    for
+
+# While Loops
+while condition:
+    Some work
