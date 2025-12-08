@@ -8,3 +8,9 @@
 # While Loops
 while condition:
     Some work
+
+# Break & Continue
+
+Break: Used to terminate the loop when encountered.
+Continue: Terminarte execution in the current iteration & continues execution of the loop with the next iteration.
+
