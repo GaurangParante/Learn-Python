@@ -67,6 +67,21 @@
 #     print(i)
 
 # Program 10
-n = int(input("Enter number: "))
-for i in range(1, 11):
-    print(n,'*',i,'=',n*i)
+# n = int(input("Enter number: "))
+# for i in range(1, 11):
+#     print(n,'*',i,'=',n*i)
+
+# Program 11
+n = 5
+i = 1
+sum = 0
+while i <= n:
+    sum += i
+    i +=1
+print(sum)
+
+fact = 1
+for i in range(1,n+1):
+    fact *= i
+
+print(fact)
