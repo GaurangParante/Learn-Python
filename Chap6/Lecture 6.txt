@@ -1,0 +1,42 @@
+# Function in Python
+
+-> Block of statements that perform a specific task.
+
+def func_name(param1,param2,...):
+    Some work
+    return val
+
+func_name(param1,param2) #Function Call
+
+def sum(a,b):
+    s = a + b
+    return s
+
+print(sum(1,3)) # ans = 4
+
+def -> Define 
+func_name -> Give name of your function like (calc_sum,get_factorial,...)
+param1 -> this is parameters which function take input
+return -> if you want function gives return value of work use this keyword
+
+Built in function
+print()
+len()
+type()
+range()
+
+User defined function
+
+# Default parameters
+-> Assigned a default value to parameter, which used when no argument is passed
+
+# Recursion 
+-> When a function calls itself repeatedly
+
+print n to 1 backwords
+
+def show(n):
+    if(n == 0):
+        return
+    print(n)
+    show(n-1)
