@@ -35,6 +35,8 @@ User defined function
 
 print n to 1 backwords
 
+recursion has basecase for stop calling function itself 
+
 def show(n):
     if(n == 0):
         return
