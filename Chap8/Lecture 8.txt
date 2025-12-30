@@ -88,3 +88,17 @@ Abstraction
 
 Encapsulation
 -> Wrapping data and function into a singal unit (object).
+
+
+## del keyword 
+-> Used to delete object properties or object itself.
+
+del s1.name
+del s1
+
+## Private(like) Attributes and Methods
+
+Conceptual implementation in Python
+
+-> Private attributes & methods are ment to be used only within the class and are not
+accessible from outside the class.

@@ -85,16 +85,59 @@
 
 ## Important
 # Abstration
-class Car:
-    def __init__(self):
-        self.acc = False
-        self.brk = False
-        self.clutch = False
+# class Car:
+#     def __init__(self):
+#         self.acc = False
+#         self.brk = False
+#         self.clutch = False
 
-    def start(self):
-        self.clutch = True
-        self.acc = True
-        print("Car started...")
+#     def start(self):
+#         self.clutch = True
+#         self.acc = True
+#         print("Car started...")
 
-car1 = Car()
-car1.start()
+# car1 = Car()
+# car1.start()
+
+
+## del keyword
+
+# class Student:
+#     def __init__(self,name,mark):
+#         self.name = name
+#         self.mark = mark
+
+# s1 = Student("Gaurang",60)
+# print(s1)
+# # del s1
+# del s1.name 
+# print(s1)
+
+## Private atributes and methods
+
+# class Account:
+#     def __init__(self, acc_no, acc_pass):
+#         self.acc_no = acc_no
+#         self.__acc_pass = acc_pass
+
+#     def reset_pass(self):
+#         print(self.__acc_pass)
+
+
+# acc1 = Account("123546","Test@123")
+
+# print(acc1.acc_no)
+# # print(acc1.__acc_pass)
+# acc1.reset_pass()
+
+class Person:
+    __name = "anonymous"
+
+    def __hello(self):
+        print("Hello")
+
+    def welcome(self):
+        self.__hello()
+
+p1 = Person()
+p1.welcome()
