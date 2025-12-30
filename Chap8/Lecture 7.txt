@@ -1,0 +1,70 @@
+## OOP in Python
+
+-> To map with real world scenarios, We started using objects in code.
+-> This is called object oriented programming.
+
+due to function redundancy decreace
+increase reusability 
+
+journey
+Procedural -> Functional -> Object Oriented Programming
+
+
+## Class & Object in Python
+
+-> Class is a blueprint for creating objects.
+
+#creating Class
+class Student:
+    name = "Karan Kumar"
+
+#creating object (instance)
+s1 = Student()
+print(s1.name)
+
+
+## __init__ Function
+
+Constractor 
+-> All calsses have a function called __init__(),
+-> Witch is always executed when the object is beaing initiated.
+
+# creating class
+
+class Student:
+    def __init__(self,fullname):
+        self.name = fullname
+
+# creating object
+s1 = Student("karan")
+
+print(s1.name)
+
+*The self parameter is a reference to the current
+instance of the class, and is used to access variables
+that belongs to the class
+
+attributes => data;variables
+
+
+## Class & Instance Attributes
+
+Class.attr
+obj.attr
+
+## Methods
+
+Methods are function that belong to objects
+
+# Creating Class 
+class Student:
+    def __init__(self,name):
+        self.name = name
+
+    def hello(self):
+        print("Hello",self.name)
+
+# Creating Object
+
+s1 = Student("Karan")
+s1.hello()
