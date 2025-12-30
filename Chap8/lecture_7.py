@@ -53,17 +53,48 @@
 
 ## Methods
 
-class Student:
-    def __init__(self,name,marks):
-        self.name = name
-        self.marks = marks
+# class Student:
+#     def __init__(self,name,marks):
+#         self.name = name
+#         self.marks = marks
 
-    def welcome(self):
-        print("Welcome student,",self.name)
+#     def welcome(self):
+#         print("Welcome student,",self.name)
 
-    def get_marks(self):
-        return self.marks
+#     def get_marks(self):
+#         return self.marks
 
-s1 = Student("Karan",97)
-s1.welcome()
-print(s1.get_marks())
+# s1 = Student("Karan",97)
+# s1.welcome()
+# print(s1.get_marks())
+
+## Static Method
+
+# class Student:
+#     def __init__(self,marks):
+#         self.marks = marks
+
+#     @staticmethod
+#     def hello():
+#         print("Hello")
+
+# s1 = Student(97)
+# print(s1.marks)
+# s1.hello()
+
+
+## Important
+# Abstration
+class Car:
+    def __init__(self):
+        self.acc = False
+        self.brk = False
+        self.clutch = False
+
+    def start(self):
+        self.clutch = True
+        self.acc = True
+        print("Car started...")
+
+car1 = Car()
+car1.start()

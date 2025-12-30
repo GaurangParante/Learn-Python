@@ -68,3 +68,23 @@ class Student:
 
 s1 = Student("Karan")
 s1.hello()
+
+## Static Methods
+
+class student:
+    @staticmethod
+    def collage:
+        print("ABC collage")
+
+* Decorators allows us to wrap another function in order to 
+extend the behaviour of the wrapped function, without
+permanently modifying it
+  
+
+## Important
+Abstraction
+-> Hiding the implementation details of a class and only showing the essential features to the user.
+
+
+Encapsulation
+-> Wrapping data and function into a singal unit (object).
