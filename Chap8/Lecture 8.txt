@@ -102,3 +102,52 @@ Conceptual implementation in Python
 
 -> Private attributes & methods are ment to be used only within the class and are not
 accessible from outside the class.
+
+## Inheritance
+
+When one class (child/derived) derives the properties & methods of another class (parent/base).
+
+class Car:
+    ...
+
+class ToyotaCar(Car):
+    ...
+
+
+## Types Inheritance
+
+-> singal
+-> Multi-level Inheritance
+-> Multiple Inheritance
+
+## Super Methods
+
+-> Super() Method is used to access methods of the parent class.
+
+## class method
+
+-> A class method is bound to the class & recives the class as an implicit first argument.
+-> Note - static method can't access or modify class state & generally for utility.
+
+class Student:
+    @classmethod #decorator
+    def collage(cls):
+        pass
+
+
+## Property 
+-> We use @property decorator on any method in the class to use the method as a property.
+
+
+## Polymorphism : Operator Overloading
+
+-> When the same operator is allowed to have different meaning according to the context.
+
+Operators & Dunder function
+
+a + b # addition a.__add__(b)
+a - b # substration a.__sub__(b)
+a * b # multification a.__mul____(b)
+a / b # Division a.__truediv____(b)
+a % b # addition a.__mod____(b)
+
